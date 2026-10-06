@@ -1,0 +1,16 @@
+{
+  "name": "taurs-ai-website",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build-blog.mjs",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "devDependencies": {
+    "markdown-it": "15.0.2",
+    "yaml": "2.9.1"
+  }
+}
